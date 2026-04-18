@@ -161,9 +161,9 @@ version: 测试版 1.6
 
 ### 交互式故事模式
 
-**步骤1：加载核心配置**
+**步骤1：参考文档**
 ```
-加载 assets/wanxiang.json
+参考 references/wanxiang-original/ 文档
 ```
 
 **步骤2：启动系统**
@@ -193,7 +193,7 @@ version: 测试版 1.6
 ### 第零章：万象原版【原始配置】
 **目录**：[references/wanxiang-original/index.md](references/wanxiang-original/index.md)
 
-从 `assets/wanxiang.json` 提取的原始配置内容，包含64个条目：
+从原始配置文档提取的内容，包含64个条目：
 - 核心系统（大数据包、核心版本、内部思维模块）
 - 质量控制（爆破八股文、违禁词、AI净化）
 - 文风系统（文风配置、学习模块）
@@ -321,7 +321,7 @@ version: 测试版 1.6
 ## 核心配置文件
 
 ### 万象绘卷（核心）
-**文件**：[assets/wanxiang.json](assets/wanxiang.json)
+> **注意**：核心配置文件已不随技能包发布，完整内容见 `references/wanxiang-original/`
 
 **内容**：完整的64条配置，包括：
 - 系统人格架构
@@ -331,7 +331,7 @@ version: 测试版 1.6
 - 输出格式规范
 
 **重要性**：⭐⭐⭐⭐⭐ 技能初始化核心
-**适用模式**：交互模式（必须加载）、创作模式（可选）
+**适用模式**：交互模式（参考文档）、创作模式（参考文档）
 
 ### 技能图标
 **文件**：[assets/icon.png](assets/icon.png)
@@ -339,11 +339,13 @@ version: 测试版 1.6
 **说明**：万象绘卷卷轴主题图标，深蓝紫渐变背景配展开画卷与"万象"书法，用于技能展示
 
 ### 扩展配置
-- **MoM系统**：[assets/mom-summary.json](assets/mom-summary.json) - 剧情控制与大总结
-- **弥赛亚系统**：[assets/mom-messiah.json](assets/mom-messiah.json) - 扩展系统
-- **春茶配置**：[assets/chun-tea.json](assets/chun-tea.json) - 轻小说文体指导
-- **Gemini配置**：[assets/gemini-mygo.json](assets/gemini-mygo.json) - 角色配置
-- **Apex引擎**：[assets/tavo-kemini.json](assets/tavo-kemini.json) - 综漫同人创作
+> **注意**：以下配置文件已不随技能包发布，仅保留文档参考
+
+- **MoM系统**：剧情控制与大总结（已移除）
+- **弥赛亚系统**：扩展系统（已移除）
+- **春茶配置**：轻小说文体指导（已移除）
+- **Gemini配置**：角色配置（已移除）
+- **Apex引擎**：综漫同人创作（已移除）
 
 ### 第十章：系统人格配置【核心系统】
 **目录**：[references/chapter-10-personality/index.md](references/chapter-10-personality/index.md)
@@ -364,7 +366,7 @@ version: 测试版 1.6
 
 **重要性**：⭐⭐⭐⭐⭐ 核心系统配置
 **适用模式**：所有模式
-**配置文件**：[assets/wanxiang.json](assets/wanxiang.json)
+**配置文件**：参考 `references/wanxiang-original/` 文档
 
 ---
 
@@ -495,7 +497,7 @@ version: 测试版 1.6
 
 ### 场景3：体验交互式故事（交互模式）
 1. 阅读 [chapter-01-core-system/index.md](references/chapter-01-core-system/index.md)
-2. 加载 [assets/wanxiang.json](assets/wanxiang.json)
+2. 参考 `references/wanxiang-original/` 文档
 3. 使用 `#主菜单` 或 "打开菜单" 启动
 4. 开始交互体验
 
@@ -536,7 +538,7 @@ version: 测试版 1.6
 - **模式优先**：根据用户意图先识别模式（创作/交互），再调用对应功能
 - **创作模式**：不调用指令系统，不加载万象绘卷配置（除非需要文风）
 - **交互模式**：必须加载万象绘卷配置，使用指令系统
-- **初始化要求**：交互模式首次使用必须加载 [assets/wanxiang.json](assets/wanxiang.json) 配置
+- **初始化要求**：交互模式首次使用参考 `references/wanxiang-original/` 文档
 - **指令系统**：仅交互模式使用，支持自然口语表达，无需#符号（兼容#符号格式）
 - **智能识别**：系统会智能识别关键词，理解用户意图，支持多种表达方式
 - **文风切换**：创作模式下直接调用文风系统；交互模式下使用指令
@@ -585,7 +587,7 @@ AI加载技能
     ↓
 阅读 SKILL.md 的 AI使用指南
     ↓
-加载 assets/wanxiang.json（交互模式）
+参考 references/wanxiang-original/ 文档（交互模式）
     ↓
 阅读 assets/security-persona-config.md
     ↓

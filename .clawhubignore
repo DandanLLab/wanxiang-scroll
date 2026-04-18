@@ -1,0 +1,28 @@
+# ClawHub 发布忽略文件
+
+# 敏感配置文件
+assets/restricted/
+**/gemini-mygo.json
+**/tavo-kemini.json
+**/chun-tea.json
+**/mom-messiah.json
+**/mom-summary.json
+
+# 大型配置文件（超过 token 限制）
+**/wanxiang.json
+
+# 开发文件
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# IDE 文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 测试文件
+tests/
+*.test.*
