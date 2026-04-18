@@ -346,7 +346,7 @@ version: 测试版 1.6
 - **Apex引擎**：[assets/tavo-kemini.json](assets/tavo-kemini.json) - 综漫同人创作
 
 ### 第十章：万象核心配置【核心系统】
-**目录**：[references/chapter-10-chun-tea/index.md](references/chapter-10-chun-tea/index.md)
+**目录**：[references/chapter-10-personality/index.md](references/chapter-10-personality/index.md)
 
 - 10.1 核心系统：系统人格、世界观、行为准则
 - 10.2 输出规则：输出格式、文风渲染器

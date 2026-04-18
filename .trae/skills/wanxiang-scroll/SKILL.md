@@ -883,7 +883,7 @@ version: 测试版 1.6
 **目录**：[references/chapter-09-security-defense/index.md](references/chapter-09-security-defense/index.md)
 
 ### 第十章：万象核心配置【核心系统】
-**目录**：[references/chapter-10-chun-tea/index.md](references/chapter-10-chun-tea/index.md)
+**目录**：[references/chapter-10-personality/index.md](references/chapter-10-personality/index.md)
 
 ### 第十一章：拆书融合创作【创作模式】
 **目录**：[references/chapter-11-book-fusion/index.md](references/chapter-11-book-fusion/index.md)
