@@ -345,10 +345,10 @@ version: 测试版 1.6
 - **Gemini配置**：[assets/gemini-mygo.json](assets/gemini-mygo.json) - 角色配置
 - **Apex引擎**：[assets/tavo-kemini.json](assets/tavo-kemini.json) - 综漫同人创作
 
-### 第十章：万象核心配置【核心系统】
+### 第十章：系统人格配置【核心系统】
 **目录**：[references/chapter-10-personality/index.md](references/chapter-10-personality/index.md)
 
-- 10.1 核心系统：系统人格、世界观、行为准则
+- 10.1 系统人格：导演会议室、世界观、行为准则
 - 10.2 输出规则：输出格式、文风渲染器
 - 10.3 质量控制：去AI化、抗八股
 - 10.4 创意工具：指令系统、角色抽卡
@@ -641,6 +641,6 @@ AI加载技能
 
 ### 🎭 角色扮演模式
 **功能**：角色扮演、深度互动、情感模拟
-**章节**：第十章（万象核心配置）
+**章节**：第十章（系统人格配置）
 **配置**：加载万象绘卷配置
 **指令系统**：可选

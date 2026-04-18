@@ -1,14 +1,14 @@
-# 第十章：万象核心配置
+# 第十章：系统人格配置
 
 ## 概述
 
-万象核心配置是梦之界·万象绘卷的核心系统，包含系统人格、内部思维模块、哲学核心和文风渲染器。
+系统人格配置是梦之界·万象绘卷的核心系统，包含系统人格、内部思维模块、哲学核心和文风渲染器。
 
 ## 章节导航
 
 | 文件 | 内容 |
 |------|------|
-| [01-core-system.md](01-core-system.md) | 系统人格、世界观、行为准则 |
+| [01-personality-system.md](01-personality-system.md) | 系统人格、世界观、行为准则 |
 | [02-output-rules.md](02-output-rules.md) | 输出格式、文风渲染器 |
 | [03-quality-control.md](03-quality-control.md) | 质量控制、去AI化 |
 | [04-creative-tools.md](04-creative-tools.md) | 创意工具、指令系统 |
