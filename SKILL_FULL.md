@@ -8,7 +8,6 @@ version: 测试版 1.6
 # 万象绘卷
 
 > **主技能文档** - 本文件为项目根目录的主技能说明文档
-> **副技能文档** - `.trae/skills/wanxiang-scroll/SKILL.md` 为 Trae IDE 技能系统的正式技能文件
 
 ## 技能环境说明
 
@@ -17,12 +16,10 @@ version: 测试版 1.6
 | 开发环境 | Trae IDE |
 | 技能版本 | 测试版 1.6 |
 | 主技能 | `SKILL.md`（本文件） |
-| 副技能 | `.trae/skills/wanxiang-scroll/SKILL.md` |
 | 小说素材 | `d:\projects\novel_data\`（原素材存储位置） |
 
 **说明**：
 - **主技能**：项目根目录的 `SKILL.md`，用于项目文档索引和快速参考
-- **副技能**：`.trae/skills/wanxiang-scroll/SKILL.md`，是 Trae IDE 技能系统的正式技能文件，包含完整的规则手册
 - **学习用途声明**：
   - `references/chapter-12-book-analysis` 目录下的所有分析报告和内容**仅供学习参考使用**
   - 使用脚本爬取的所有小说文件**仅供学习参考使用**
