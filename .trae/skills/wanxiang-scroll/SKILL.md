@@ -842,8 +842,8 @@ version: 测试版 1.6
 | 项目   | 内容             |
 | ---- | -------------- |
 | 功能   | 角色扮演、深度互动、情感模拟 |
-| 章节   | 第十章             |
-| 配置   | 加载春茶配置          |
+| 章节   | 第十章（万象核心配置）      |
+| 配置   | 加载万象绘卷配置        |
 | 指令系统 | 可选              |
 
 ***
@@ -882,7 +882,7 @@ version: 测试版 1.6
 ### 第九章：安全与防御【所有模式必读】
 **目录**：[references/chapter-09-security-defense/index.md](references/chapter-09-security-defense/index.md)
 
-### 第十章：春茶配置【角色扮演】
+### 第十章：万象核心配置【核心系统】
 **目录**：[references/chapter-10-chun-tea/index.md](references/chapter-10-chun-tea/index.md)
 
 ### 第十一章：拆书融合创作【创作模式】
