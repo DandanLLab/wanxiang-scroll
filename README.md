@@ -23,6 +23,32 @@ python scripts/crawl_novel_index.py --mode download --index ./novel_data/novel_i
 python scripts/crawl_novel_index.py --mode outline --index ./novel_data/novel_index.json --outdir ./novel_data
 ```
 
+## Git 指令
+
+仓库地址：`https://github.com/DandanLLab/wanxiang-scroll`
+
+### 1) 首次克隆仓库
+
+```bash
+git clone https://github.com/DandanLLab/wanxiang-scroll.git
+cd wanxiang-scroll
+```
+
+### 2) 已有本地目录时关联远程仓库
+
+```bash
+git init
+git remote add origin https://github.com/DandanLLab/wanxiang-scroll.git
+```
+
+### 3) 提交并推送到 GitHub
+
+```bash
+git add .
+git commit -m "docs: update README and license notes"
+git push -u origin main
+```
+
 ## 使用与合规说明
 
 - 本仓库中的小说分析与素材整理内容主要用于学习和研究用途。
