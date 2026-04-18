@@ -131,7 +131,7 @@
 
 | 章节 | 内容 |
 |------|------|
-| [第十章：万象核心配置](../chapter-10-chun-tea/index.md) | 系统人格、世界观、行为准则 |
+| [第十章：系统人格配置](../chapter-10-personality/index.md) | 系统人格、世界观、行为准则 |
 | [第一章：核心系统](../chapter-01-core-system/index.md) | 系统协议、指令系统 |
 | [第二章：文风系统](../chapter-02-style-system/index.md) | 56种文风库 |
 | [第七章：质量控制](../chapter-07-quality-control/index.md) | 去AI化、评审标准 |
