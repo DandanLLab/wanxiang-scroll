@@ -107,25 +107,65 @@ python scripts/crawl_novel_index.py \
 
 ---
 
-## 5. Git 指令（GitHub）
+
+## 5. 互动系统（交互式故事）
+
+仓库不仅支持创作资料与脚本工具，也提供“交互式故事”使用路径。
+
+### 5.1 互动系统适用场景
+
+- 希望以“角色行动 + 世界反馈”的方式推进剧情
+- 想在对话中实时查看状态、探索场景、触发事件
+- 需要从“写作模式”切换到“游玩/扮演模式”
+
+### 5.2 建议阅读顺序
+
+1. `references/chapter-01-core-system/index.md`（核心系统与协议）
+2. `references/chapter-03-interactive-story/index.md`（互动故事快速开始）
+3. `references/chapter-02-style-system/index.md`（互动中切换文风）
+
+### 5.3 互动系统快速体验
+
+```text
+打开菜单
+看看现在啥情况
+探索附近区域
+```
+
+可选的 `#` 指令形式（兼容口语输入）：
+
+```text
+#主菜单
+#状态
+#探索
+```
+
+### 5.4 与创作模式的区别
+
+- **创作模式**：侧重写作产出（大纲、正文、优化、拆书融合），一般不需要指令系统。
+- **互动模式**：侧重即时交互体验（行动、状态、世界反馈），建议优先加载核心配置并按互动协议运行。
+
+---
+
+## 6. Git 指令（GitHub）
 
 仓库地址：`https://github.com/DandanLLab/wanxiang-scroll`
 
-### 5.1 首次克隆
+### 6.1 首次克隆
 
 ```bash
 git clone https://github.com/DandanLLab/wanxiang-scroll.git
 cd wanxiang-scroll
 ```
 
-### 5.2 本地已有目录，关联远程
+### 6.2 本地已有目录，关联远程
 
 ```bash
 git init
 git remote add origin https://github.com/DandanLLab/wanxiang-scroll.git
 ```
 
-### 5.3 提交并推送
+### 6.3 提交并推送
 
 ```bash
 git add .
@@ -133,7 +173,7 @@ git commit -m "docs: improve README details"
 git push -u origin main
 ```
 
-### 5.4 更新本地代码
+### 6.4 更新本地代码
 
 ```bash
 git pull --rebase origin main
@@ -141,7 +181,7 @@ git pull --rebase origin main
 
 ---
 
-## 6. 使用与合规
+## 7. 使用与合规
 
 - 本仓库中的小说分析与素材整理内容主要用于学习和研究用途。
 - 使用抓取/下载类脚本时，请遵守目标站点协议、robots 规则与当地法律法规。
@@ -149,7 +189,7 @@ git pull --rebase origin main
 
 ---
 
-## 7. 开源协议
+## 8. 开源协议
 
 本项目采用 **MIT License** 开源，详见 [LICENSE](./LICENSE)。
 
