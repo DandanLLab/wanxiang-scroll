@@ -1,4 +1,4 @@
-***
+﻿***
 
 name: wanxiang-scroll
 description: 整合56种文风切换、网文创作全流程、交互式故事模拟、剧情管理、拆书融合创作与小说档案馆的全能创作工具箱；当用户需要创作网文小说、拆书融合创作、测试文风效果、体验交互式故事、管理长篇剧情线、爬取分析小说或优化文本去AI痕迹时使用
@@ -319,7 +319,7 @@ version: 测试版 1.6
 
 ### F. 其他风格 (27种)
 
-详见 `assets/wanxiang.json` 完整配置
+详见 `references/wanxiang-original/` 完整配置
 
 ***
 
@@ -656,7 +656,7 @@ version: 测试版 1.6
 在生成场景时，必须混入15%\~30%的随机扰动：
 
 - **彩蛋**：在严肃古墓里发现奶茶店优惠券
-- **危机**：草丛是一群伪装成草的史莱姆
+- **危机**：草丛是一群风格变换成草的史莱姆
 - **Bug美学**：算力不足时出现"现实的裂缝"
 
 ***
@@ -746,7 +746,7 @@ version: 测试版 1.6
 ### 场景3：体验交互式故事（交互模式）
 
 1. 阅读 `references/chapter-01-core-system/index.md`
-2. 加载 `assets/wanxiang.json`
+2. 加载 `references/wanxiang-original/`
 3. 使用 `#主菜单` 或 "打开菜单" 启动
 4. 开始交互体验
 
@@ -777,7 +777,7 @@ version: 测试版 1.6
 
 ### 万象绘卷（核心）
 
-**文件**：`assets/wanxiang.json`
+**文件**：`references/wanxiang-original/`
 
 **内容**：完整的64条配置，包括：
 
@@ -805,7 +805,7 @@ version: 测试版 1.6
 - **模式优先**：根据用户意图先识别模式（创作/交互），再调用对应功能
 - **创作模式**：不调用指令系统，不加载万象绘卷配置（除非需要文风）
 - **交互模式**：必须加载万象绘卷配置，使用指令系统
-- **初始化要求**：交互模式首次使用必须加载 `assets/wanxiang.json` 配置
+- **初始化要求**：交互模式首次使用必须加载 `references/wanxiang-original/` 配置
 - **指令系统**：仅交互模式使用，支持自然口语表达，无需#符号（兼容#符号格式）
 - **智能识别**：系统会智能识别关键词，理解用户意图，支持多种表达方式
 - **文风切换**：创作模式下直接调用文风系统；交互模式下使用指令
@@ -852,7 +852,7 @@ version: 测试版 1.6
 ### 第零章：万象原版【原始配置】
 **目录**：[references/wanxiang-original/index.md](references/wanxiang-original/index.md)
 
-从 `assets/wanxiang.json` 提取的原始配置内容，包含64个条目。
+从 `references/wanxiang-original/` 提取的原始配置内容，包含64个条目。
 
 ### 第一章：核心系统【交互模式核心】
 **目录**：[references/chapter-01-core-system/index.md](references/chapter-01-core-system/index.md)

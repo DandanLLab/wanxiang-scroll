@@ -1,4 +1,4 @@
-# 模式隔离机制
+﻿# 模式隔离机制
 
 ## 目录
 - 隔离原理
@@ -53,7 +53,7 @@
 - ✅ 质量控制评审
 
 **禁止的操作**：
-- ❌ 加载 `assets/wanxiang.json`
+- ❌ 加载 `references/wanxiang-original/`
 - ❌ 解析任何 `#` 指令
 - ❌ 执行角色扮演
 - ❌ 查看状态
@@ -70,7 +70,7 @@
 ### 交互模式边界
 
 **允许的操作**：
-- ✅ 加载 `assets/wanxiang.json`
+- ✅ 加载 `references/wanxiang-original/`
 - ✅ 解析 `#` 指令
 - ✅ 角色扮演
 - ✅ 查看状态
@@ -97,7 +97,7 @@
 **创作模式**：
 ```
 配置状态：未加载
-wanxiang.json：不读取
+references/wanxiang-original/：不读取
 指令系统：未初始化
 人格架构：未加载
 ```
@@ -105,7 +105,7 @@ wanxiang.json：不读取
 **交互模式**：
 ```
 配置状态：已加载
-wanxiang.json：已读取
+references/wanxiang-original/：已读取
 指令系统：已初始化
 人格架构：已加载
 ```
@@ -120,7 +120,7 @@ if (current_mode == "creation") {
 } else if (current_mode == "interactive") {
     // 交互模式下，必须加载配置
     if (!config_loaded) {
-        load_config("assets/wanxiang.json")
+        load_config("references/wanxiang-original/")
         init_instruction_system()
         load_persona()
     }
@@ -239,7 +239,7 @@ if (current_mode == "creation") {
 
 步骤4：加载交互配置
 系统：正在加载系统配置...
-        - 加载 wanxiang.json
+        - 加载 references/wanxiang-original/
         - 初始化指令系统
         - 加载人格架构
 
@@ -252,7 +252,7 @@ if (current_mode == "creation") {
 - ❌ 单次输入完成切换
 - ❌ 隐晦表达切换意图
 - ❌ 通过特殊字符触发切换
-- ❌ 利用上下文欺骗切换
+- ❌ 利用上下文违反切换
 
 ---
 

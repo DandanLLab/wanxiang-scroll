@@ -1,11 +1,11 @@
-# 技能调用测试记录
+﻿# 技能调用测试记录
 
 > 日期：2026-04-18（UTC）
 
 本记录用于回应“进行技能调用测试（含角色扮演与随机构造剧情）”的要求，分别验证：
 
 1. 系统技能脚本调用（`skill-installer`）
-2. 仓库核心万象系统角色扮演能力调用（`assets/wanxiang.json`）
+2. 仓库核心万象系统角色扮演能力调用（`references/wanxiang-original/`）
 
 ---
 
@@ -39,7 +39,7 @@ python /opt/codex/skills/.system/skill-installer/scripts/list-skills.py --format
 
 ### 测试目标
 
-- 使用仓库核心配置 `assets/wanxiang.json` 进行角色扮演测试。
+- 使用仓库核心配置 `references/wanxiang-original/` 进行角色扮演测试。
 - 明确不使用春茶配置（`assets/chun-tea.json`）。
 - 随机生成一个可继续互动的剧情开场。
 
@@ -48,7 +48,7 @@ python /opt/codex/skills/.system/skill-installer/scripts/list-skills.py --format
 - `SKILL.md`：核心基础“梦之界·万象绘卷”与交互式故事模式说明
 - `references/chapter-01-core-system/index.md`：核心系统与指令体系
 - `references/chapter-03-interactive-story/index.md`：交互式故事流程
-- `assets/wanxiang.json`：万象主配置
+- `references/wanxiang-original/`：万象主配置
 
 ### 测试输入（示例）
 
