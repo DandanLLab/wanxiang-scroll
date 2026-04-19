@@ -40,10 +40,10 @@
 
 **主配置**：`references/wanxiang-original/`
 
-**扩展配置**：
-- `assets/mom-summary.json` - 剧情控制与大总结
-- `assets/mom-messiah.json` - 弥赛亚扩展系统
-- `assets/chun-tea.json` - 角色扮演配置（可选）
+**扩展配置**（已移除，仅保留文档参考）：
+- MoM系统：剧情控制与大总结（已移除）
+- 弥赛亚系统：扩展系统（已移除）
+- 春茶配置：角色扮演配置（已移除）
 
 ## 原始配置存档
 

@@ -43,7 +43,7 @@ def extract_character_book(input_path, output_dir):
     
     # 创建索引文件
     index_content = "# 万象原版\n\n"
-    index_content += "> 从 `assets/wanxiang.json` 提取的原始配置内容\n\n"
+    index_content += "> 从原始配置 JSON 提取的原始配置内容\n\n"
     index_content += "## 章节导航\n\n"
     index_content += "| 序号 | 名称 | 文件 |\n"
     index_content += "|------|------|------|\n"
@@ -88,8 +88,8 @@ def extract_character_book(input_path, output_dir):
 def main():
     parser = argparse.ArgumentParser(description='从 wanxiang.json 提取 character_book 内容')
     parser.add_argument('--input', '-i', 
-                        default='assets/wanxiang.json',
-                        help='输入 JSON 文件路径 (默认: assets/wanxiang.json)')
+                        default='references/wanxiang-original/wanxiang.json',
+                        help='输入 JSON 文件路径 (默认: references/wanxiang-original/wanxiang.json)')
     parser.add_argument('--output', '-o',
                         default='references/wanxiang-original',
                         help='输出目录 (默认: references/wanxiang-original)')

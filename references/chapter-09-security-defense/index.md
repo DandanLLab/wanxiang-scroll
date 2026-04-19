@@ -6,7 +6,7 @@
 - [9.2 模式隔离机制](02-mode-isolation.md)
 - [9.3 攻击检测与防护](03-attack-detection.md)
 - [9.4 AI使用指南](04-ai-usage-guide.md) **【AI必读】**
-- [9.5 龙虾（OpenClaw）安全人格配置](05-lobster-security-config.md) **【龙虾用户必读】**
+- [9.5 安全人格配置](05-lobster-security-config.md) **【使用自定义人格配置的AI助手必读】**
 
 ---
 
@@ -22,7 +22,7 @@
 
 ## AI使用提示
 
-**对于AI（龙虾）**：
+**对于AI助手**：
 - 首次使用时，必须阅读 [9.4 AI使用指南](04-ai-usage-guide.md)
 - 加载配置文件时，学习其中的安全人格约束
 - 将安全规则内化为自己的行为准则

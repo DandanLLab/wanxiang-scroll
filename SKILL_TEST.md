@@ -40,7 +40,7 @@ python /opt/codex/skills/.system/skill-installer/scripts/list-skills.py --format
 ### 测试目标
 
 - 使用仓库核心配置 `references/wanxiang-original/` 进行角色扮演测试。
-- 明确不使用春茶配置（`assets/chun-tea.json`）。
+- 明确不使用春茶配置（已移除，仅保留文档参考）。
 - 随机生成一个可继续互动的剧情开场。
 
 ### 调用依据

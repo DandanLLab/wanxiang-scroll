@@ -131,13 +131,13 @@ def main():
     )
     parser.add_argument(
         "--zip", 
-        default="d:/projects/yuluoxc_eboos_download.zip",
-        help="ZIP 文件路径 (默认: d:/projects/yuluoxc_eboos_download.zip)"
+        default="./yuluoxc_eboos_download.zip",
+        help="ZIP 文件路径 (默认: ./yuluoxc_eboos_download.zip)"
     )
     parser.add_argument(
         "--output", 
-        default="d:/projects/novel_data/yuluoxc",
-        help="输出目录 (默认: d:/projects/novel_data/yuluoxc)"
+        default="./novel_data/yuluoxc",
+        help="输出目录 (默认: ./novel_data/yuluoxc)"
     )
     
     args = parser.parse_args()
