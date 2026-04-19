@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 """
 全量下载v5 - 使用requests+session+自动重试
+
+⚠️ 安全警告：
+- 此脚本用于下载小说内容，请确保遵守相关法律法规
+- 运行前请确保已安装依赖：pip install requests
+- 仅用于个人学习和研究目的
 """
 import json, os, sys, re, time, argparse
 from pathlib import Path
@@ -10,12 +15,12 @@ try:
     from requests.adapters import HTTPAdapter
     from urllib3.util.retry import Retry
 except ImportError:
-    print("Installing requests...")
-    import subprocess
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "requests", "-q"])
-    import requests
-    from requests.adapters import HTTPAdapter
-    from urllib3.util.retry import Retry
+    print("=" * 60)
+    print("⚠️ 缺少依赖：requests")
+    print("请手动安装：pip install requests")
+    print("或安装所有依赖：pip install -r requirements.txt")
+    print("=" * 60)
+    sys.exit(1)
 
 # Session with retry
 def make_session():

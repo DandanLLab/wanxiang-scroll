@@ -2,6 +2,11 @@
 """
 全量下载v4 - 双策略：优先下载txt，失败则从_page页面提取正文
 用法: python crawl_all_v4.py [--delay 2] [--workers 5]
+
+⚠️ 安全警告：
+- 此脚本用于下载小说内容，请确保遵守相关法律法规
+- 仅用于个人学习和研究目的
+- 请勿用于商业用途或侵犯版权
 """
 import json, os, sys, re, time, argparse
 from urllib.request import urlopen, Request

@@ -2,6 +2,11 @@
 """
 全量下载+大纲提取 v3 - 正确获取txt下载链接
 用法: python crawl_all_v3.py [--delay 1.5] [--skip-download] [--skip-outline]
+
+⚠️ 安全警告：
+- 此脚本用于下载小说内容，请确保遵守相关法律法规
+- 仅用于个人学习和研究目的
+- 请勿用于商业用途或侵犯版权
 """
 import json, os, sys, re, time, argparse, hashlib
 from urllib.request import urlopen, Request

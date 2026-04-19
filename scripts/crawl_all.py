@@ -2,6 +2,11 @@
 """
 全量下载+大纲提取 - 兼容原索引格式
 用法: python crawl_all.py [--delay 1.5] [--limit 0] [--skip-download]
+
+⚠️ 安全警告：
+- 此脚本用于下载小说内容，请确保遵守相关法律法规
+- 仅用于个人学习和研究目的
+- 请勿用于商业用途或侵犯版权
 """
 import json, os, sys, re, time, argparse
 from urllib.request import urlopen, Request

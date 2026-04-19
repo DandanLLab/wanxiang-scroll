@@ -1,5 +1,19 @@
 # 万象绘卷版本更新日志
 
+## v2.6.1 (2026-04-19)
+
+### 安全修复
+- **移除自动安装依赖代码**：`crawl_all_v5.py` 不再自动执行 `pip install`
+- **添加安全警告**：所有爬虫脚本添加版权和法律合规警告
+- **依赖安装改为手动**：用户需手动执行 `pip install -r requirements.txt`
+
+### 修复内容
+- 移除 `subprocess.check_call([sys.executable, "-m", "pip", "install", ...])`
+- 添加 ImportError 处理，提示用户手动安装依赖
+- 更新 SKILL.md 安全说明
+
+---
+
 ## v2.6.0 (2026-04-19)
 
 ### 新增功能
