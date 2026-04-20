@@ -2,7 +2,7 @@
   "world_name": "${world_name}",
   "world_type": "${world_type}",
   "era": "${era}",
-  "start_year": ${start_year},
+  "start_year": "${start_year}",
   "magic_system": {
     "type": null,
     "rarity": "普通",

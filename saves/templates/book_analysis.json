@@ -3,7 +3,7 @@
   "author": "${author}",
   "platform": "${platform}",
   "genre": "${genre}",
-  "word_count": ${word_count},
+  "word_count": "${word_count}",
   "status": "${status}",
   "one_line_summary": "${one_line_summary}",
   "core_selling_points": [],

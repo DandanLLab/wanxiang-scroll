@@ -5,7 +5,7 @@
     "name": "${world_name}",
     "type": "${world_type}",
     "era": "${era}",
-    "year": ${current_year},
+    "year": "${current_year}",
     "magic_system": [],
     "races": [],
     "nations": [],
