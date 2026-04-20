@@ -17,14 +17,6 @@ data/
 *.sqlite
 *.sqlite3
 
-# 脚本目录（工具脚本不需要发布到技能市场）
-scripts/
-
-# 存档目录
-saves/
-
-# 故事目录
-stories/
 
 # 开发文件
 *.log
