@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 从 wanxiang.json 提取 character_book 内容生成 markdown 文件
 用法: python extract_character_book.py [--input INPUT] [--output OUTPUT]
@@ -74,42 +75,38 @@ def extract_character_book(input_path, output_dir):
             f.write(content)
         
         print(f"已创建: {filename}")
+        
         index_content += f"| {entry_id} | {name} | [{filename}](./{filename}) |\n"
     
-    # 写入索引文件
-    index_path = os.path.join(output_dir, 'index.md')
+    # 保存索引文件
+    index_path = os.path.join(output_dir, "index.md")
     with open(index_path, 'w', encoding='utf-8') as f:
         f.write(index_content)
     
-    print(f"\n完成! 共生成 {len(entries)} 个文件到 {output_dir}")
+    print(f"\n完成! 共提取 {len(entries)} 个条目")
     print(f"索引文件: {index_path}")
 
 
 def main():
-    parser = argparse.ArgumentParser(description='从 wanxiang.json 提取 character_book 内容')
+    parser = argparse.ArgumentParser(description='提取 character_book 内容')
     parser.add_argument('--input', '-i', 
-                        default='references/wanxiang-original/wanxiang.json',
-                        help='输入 JSON 文件路径 (默认: references/wanxiang-original/wanxiang.json)')
+                        default='wanxiang.json',
+                        help='输入 JSON 文件路径')
     parser.add_argument('--output', '-o',
-                        default='references/wanxiang-original',
-                        help='输出目录 (默认: references/wanxiang-original)')
+                        default='output',
+                        help='输出目录')
     
     args = parser.parse_args()
     
-    script_dir = Path(__file__).parent
-    input_path = script_dir.parent / args.input
-    output_dir = script_dir.parent / args.output
+    input_path = Path(args.input)
+    output_dir = Path(args.output)
     
     if not input_path.exists():
-        print(f"错误: 找不到输入文件 {input_path}")
+        print(f"错误: 输入文件不存在 - {input_path}")
         return
-    
-    print(f"输入文件: {input_path}")
-    print(f"输出目录: {output_dir}")
-    print("-" * 50)
     
     extract_character_book(input_path, output_dir)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

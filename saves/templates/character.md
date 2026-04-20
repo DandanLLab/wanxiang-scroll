@@ -1,6 +1,7 @@
 # 角色设定模板
 
 ## 基本信息
+
 - **姓名**：${name}
 - **种族**：${race}
 - **性别**：${gender}
@@ -8,6 +9,7 @@
 - **角色定位**：${role}
 
 ## 角色定位选项
+
 - **主角**：故事核心，视角人物
 - **主要配角**：重要配角，推动剧情
 - **次要配角**：功能性角色
@@ -18,24 +20,29 @@
 - **路人NPC**：背景角色
 
 ## 出身背景
+
 - **出生地**：${birthplace}
 - **家庭背景**：${family_background}
 - **社会阶层**：${social_class}
 - **成长经历**：${growth_history}
 
 ## 外貌特征
+
 ${appearance}
 
 ## 性格特点
+
 ${personality}
 
 ## 核心信念
+
 - **价值观**：${values}
 - **人生目标**：${goals}
 - **恐惧**：${fears}
 - **秘密**：${secrets}
 
 ## 属性面板
+
 | 属性 | 数值 | 说明 |
 |------|------|------|
 | 力量 (STR) | ${str} | 物理力量 |
@@ -45,18 +52,23 @@ ${personality}
 | 幸运 (LUK) | ${luk} | 运气概率 |
 
 ## 技能列表
+
 ${skills}
 
 ## 特质列表
+
 ${traits}
 
 ## 人际关系
+
 ${relationships}
 
 ## 装备物品
+
 ${equipment}
 
 ## 角色弧线
+
 - **起始状态**：${start_state}
 - **成长方向**：${growth_direction}
 - **转变契机**：${turning_point}

@@ -11,6 +11,21 @@ assets/restricted/
 # 大型配置文件（超过 token 限制）
 **/wanxiang.json
 
+# 数据库文件
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# 脚本目录（工具脚本不需要发布到技能市场）
+scripts/
+
+# 存档目录
+saves/
+
+# 故事目录
+stories/
+
 # 开发文件
 *.log
 *.tmp
@@ -26,3 +41,9 @@ Thumbs.db
 # 测试文件
 tests/
 *.test.*
+
+# Trae 技能目录（避免重复）
+.trae/
+
+# clawhub 内部文件
+.clawhub/

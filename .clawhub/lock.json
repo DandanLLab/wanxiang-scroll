@@ -1,9 +1,9 @@
 {
-  "version": 1,
-  "skills": {
-    "wanxiang-scroll": {
-      "version": "2.6.2",
-      "installedAt": 1776586200000
+    "version": 1,
+    "skills": {
+        "wanxiang-scroll": {
+            "version": "2.6.7",
+            "installedAt": 1776586200000
+        }
     }
-  }
 }
