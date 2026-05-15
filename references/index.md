@@ -1,4 +1,4 @@
-﻿# 万象绘卷 - 参考文档索引
+﻿﻿﻿﻿﻿﻿﻿﻿# 万象绘卷 - 参考文档索引
 
 > 这里是万象绘卷所有的创作参考资料，按章节组织。
 
@@ -80,7 +80,7 @@
 |------|------|
 | [01-quality-standard.md](./ch07-质量控制/01-quality-standard.md) | 质量评审标准 |
 | [02-editor-techniques.md](./ch07-质量控制/02-editor-techniques.md) | 编辑技巧与文笔润色 |
-| [03-ai-trace-removal.md](./ch07-质量控制/03-ai-trace-removal.md) | 模板化表达识别与修复（23种模式） |
+| [03-ai-trace-removal.md](./ch07-质量控制/03-ai-trace-removal.md) | AI痕迹识别与修复（23种模式） |
 
 ### 第八章：辅助工具
 
@@ -123,7 +123,7 @@
 | [04-action.md](./ch13-人生模拟/04-action.md) | 行动力与自由行动 |
 | [05-time-system.md](./ch13-人生模拟/05-time-system.md) | 时间与死亡 |
 | [06-legacy.md](./ch13-人生模拟/06-legacy.md) | 代代相传 |
-| [07-novel-gen.md](./ch13-人生模拟/07-novel-gen.md) | 自动成书 |
+| [07-novel-gen.md](./ch13-人生模拟/07-novel-gen.md) | 后台成书 |
 
 ### 原始草稿
 
